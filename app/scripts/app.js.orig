@@ -1,0 +1,25 @@
+'use strict';
+
+angular.module('altmedApp', [
+  'ngCookies',
+  'ngResource',
+  'ngSanitize',
+  'ngRoute',
+
+])
+  .config(function ($routeProvider, $locationProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: 'partials/main',
+        controller: 'MainCtrl'
+      })
+      .when('/ailin', {
+        templateUrl: 'partials/ailin',
+        controller:  'AilinCtrl'
+      })
+      .otherwise({
+        redirectTo: '/'
+      });
+      
+    $locationProvider.html5Mode(true);
+  });

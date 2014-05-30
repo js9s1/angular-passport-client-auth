@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'cookieSession' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json altmed@0.0.0 No description
+5 warn package.json altmed@0.0.0 No repository field.
+6 warn package.json altmed@0.0.0 No README data
+7 warn package.json logger@0.0.1 No repository field.
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'cookieSession', null ]
+10 verbose cache add name=undefined spec="cookieSession" args=["cookieSession",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'cookieSession',
+11 verbose parsed url   path: 'cookieSession',
+11 verbose parsed url   href: 'cookieSession' }
+12 silly lockFile e020978a-cookieSession cookieSession
+13 verbose lock cookieSession /home/js9s/.npm/e020978a-cookieSession.lock
+14 silly lockFile e020978a-cookieSession cookieSession
+15 silly lockFile e020978a-cookieSession cookieSession
+16 verbose addNamed [ 'cookieSession', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 0678e59f-cookieSession cookieSession@
+19 verbose lock cookieSession@ /home/js9s/.npm/0678e59f-cookieSession.lock
+20 silly addNameRange { name: 'cookieSession', range: '*', hasData: false }
+21 verbose url raw cookieSession
+22 verbose url resolving [ 'https://registry.npmjs.org/', './cookieSession' ]
+23 verbose url resolved https://registry.npmjs.org/cookieSession
+24 info trying registry request attempt 1 at 13:41:58
+25 http GET https://registry.npmjs.org/cookieSession
+26 http 404 https://registry.npmjs.org/cookieSession
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Wed, 07 May 2014 17:42:01 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-jfk1035-JFK',
+27 silly registry.get     'x-cache': 'MISS, MISS',
+27 silly registry.get     'x-cache-hits': '0, 0',
+27 silly registry.get     'x-timer': 'S1399484521.120920420,VS0,VS3,VE12,VE15',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile 0678e59f-cookieSession cookieSession@
+29 silly lockFile 0678e59f-cookieSession cookieSession@
+30 error 404 'cookieSession' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404 It was specified as a dependency of 'altmed'
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Linux 3.14.3-gentoo
+32 error command "/usr/bin/node" "/usr/bin/npm" "install" "cookieSession"
+33 error cwd /mnt/sda8/home/js9s/src/altmed1/server
+34 error node -v v0.10.26
+35 error npm -v 1.4.3
+36 error code E404
+37 verbose exit [ 1, true ]
